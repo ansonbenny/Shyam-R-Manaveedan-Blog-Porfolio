@@ -1,0 +1,84 @@
+---
+title: Shyam R Manaveedan - Hire Me
+layout: base.njk
+---
+
+
+  <!--HireMe Header-->
+
+  <section class="Hire-Me-contact-info">
+        <div class="container">
+            <h2 class="title Hire-Me-contact-info-heading text-center">Hire Me</h2>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><a class="Hire-Me-contact-info-sub-heading1" href="/">Home</a><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span><span class="Hire-Me-contact-info-sub-heading2">Hire Me</span></p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--HireMe Form-->
+
+<section class="Hire-Me-contact-info-form-padding">
+    <div class="container">
+    <form id="submit-form" class="Hire-Me-contact-info-form" action="">
+        <div class="row mb-3">
+            <div class="col">
+              <input name="full-name" type="text" class="form-control Hire-Me-contact-info-form-colums" placeholder="Name" aria-label="Name" required="">
+            </div>
+            <div class="col">
+              <input name="email" type="email" class="form-control Hire-Me-contact-info-form-colums" placeholder="Email" aria-label="Email" required="">
+            </div>
+          </div>
+        <div class="mb-3">
+         <input name="number" type="number" class="form-control Hire-Me-contact-info-form-colums" placeholder="Number" aria-label="Number" required="">
+        </div>
+        <div class="mb-3">
+            <textarea name="message" class="form-control Hire-Me-contact-info-form-Message" placeholder="Message" required=""></textarea>
+        </div>
+        <button class="btn Hire-Me-contact-info-form-button" type="submit">Send Message</button>
+      </form>
+    </div>
+
+</section>
+
+<!-- Form Success or Error-->
+
+<section>
+  <div class="container">
+   <div class="row text-center">
+    <div id="form-submit-success" class="col-12">
+    <button type="button" class="btn btn-warning form-submit-success-btn">Success</button>
+  </div>
+    <div id="form-submit-error" class="col-12">
+    <button type="button" class="btn btn-danger form-submit-error-btn">Error</button>
+  </div>
+ </div>
+
+  </div>
+</section>
+
+<!--Contact-Info-->
+
+{% include 'contact-info.njk' %}
+
+  <div class="row space"></div>
+
+  <!--Footer-->
+
+  <footer class="body-footer">
+    <div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <p class="copyright">&copy; Copyright <script>document.write(new Date().getFullYear())</script></p>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+  </footer>

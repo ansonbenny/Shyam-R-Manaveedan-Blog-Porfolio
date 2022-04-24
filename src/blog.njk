@@ -1,0 +1,71 @@
+---
+title: Shyam R Manaveedan - Blog
+layout: base.njk
+---
+
+
+  <!--Blog Header-->
+
+  <section class="blog-head-padding-top">
+        <div class="container">
+            <h2 class="title blog-heading text-center">Latest Blog Posts</h2>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><a class="blog-sub-heading1" href="/">Home</a><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span><span class="blog-sub-heading2">Blog</span></p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!--Contents-->
+
+<section>
+  <div class="blog-content-top-padding">
+    <div class="container">
+      <div class="row">
+        <ul role="list" class="blog-content-ul-list">
+
+           {%- for post in collections.post | reverse -%}
+           <li>
+             <article class="blog-content-padding-bottum">
+               <div class="row">
+                 <div class="col-12 col-md-4 padding-blog-articles-left">
+               <img alt="{{ post.data.imageAlt }}" class="rounded blog-content-image" src="{{ post.data.image }}">
+             </div>
+             <div class="col-12 col-md-8 padding-blog-articles-left">
+               <h4 class="blog-contents-headings">{{ post.data.title }}</h4>
+               <p class="snippet__meta">by <span>{{ post.data.author }}</span> on <span>{{ post.data.date | postDate }}</span></p>
+               <a href="{{ post.url }}"><button  class="btn blog-contents-read-more">Read More</button></a>
+             </div>
+             </div>
+             </article>
+           </li>
+           {%- endfor %}
+
+         </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <div class="row space"></div>
+
+<!--Footer-->
+
+<footer class="body-footer">
+  <div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <p class="copyright">&copy; Copyright <script>document.write(new Date().getFullYear())</script></p>
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
+</footer>

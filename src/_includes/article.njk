@@ -1,0 +1,41 @@
+---
+layout: 'base.njk'
+---
+
+<!--Article-->
+
+<section>
+  <article class="main-article">
+    <div class="container">
+
+        <figure>
+          <img class="rounded main-article-image" src="{{ image }}" alt="{{ imageAlt }}">
+        </figure>
+        <h1 class="article-title">{{ title }}</h1>
+
+        {{ content | safe }}
+
+    </div>
+    </article>
+</section>
+
+  <div class="row space"></div>
+
+  <!--Footer-->
+
+  <footer class="body-footer">
+    <div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <p class="copyright">&copy; Copyright <script>document.write(new Date().getFullYear())</script></p>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+  </footer>

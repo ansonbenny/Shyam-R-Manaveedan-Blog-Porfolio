@@ -1,0 +1,1021 @@
+.navbar-position {
+  margin-left: auto;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.header-top-fix {
+  padding-top: 5em;
+}
+
+.header-height {
+  padding: 10px;
+}
+
+.navbar-dropdown-icon {
+  color: #8e43e7;
+  padding-left: 0.9em;
+}
+
+.navbar-dropdown-icon:hover {
+  color: #8e43e7;
+}
+
+.navbar-dropdown-text {
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  font-weight: lighter;
+  color: gray;
+}
+
+.body-main-banner {
+  width: 99%;
+}
+
+.body-main-banner h3.banner-text {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  color: var(--title-color);
+}
+
+.body-main-banner .banner-info p {
+  font-size: 18px;
+  color: var(--text-color);
+  display: inline-block;
+  line-height: 28px;
+  max-width: 650px;
+}
+
+.body-main-banner .banner-slider {
+  position: relative;
+  z-index: 1;
+}
+
+.body-main-banner .banner-view {
+  background: url(../images/shyam.png) no-repeat right;
+  background-size: contain;
+  min-height: 585px;
+  position: relative;
+  z-index: 0;
+  display: grid;
+  align-items: center;
+}
+
+.body-main-banner .banner-view:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media (max-width: 1280px) {
+  .body-main-banner .banner-view {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 992px) {
+  .body-main-banner h3.gallery4-head {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .body-main-banner h3.banner-text {
+    font-size: 45px;
+    line-height: 58px;
+  }
+  .body-main-banner .banner-top-inner-page {
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 991px) {
+  .body-main-banner .banner-view {
+    min-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-main-banner .banner-view:before {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .body-main-banner h3.gallery4-head {
+    margin-bottom: 20px;
+  }
+  .body-main-banner .banner-view {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 576px) {
+  .body-main-banner .banner-view:before {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+@media (max-width: 569px) {
+  .body-main-banner h3.gallery4-head {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .body-main-banner h3.banner-text {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .body-main-banner .banner-view {
+    min-height: 420px;
+  }
+  .body-main-banner .banner-top-inner-page {
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .body-main-banner .banner-info p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .body-main-banner .banner-view {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 440px) {
+  .body-main-banner h3.banner-text {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 380px) {
+  .body-main-banner .banner-view {
+    min-height: 320px;
+  }
+}
+
+.btn1-banner {
+  background: #8e43e7;
+  color: white;
+  cursor: pointer;
+  width: 7em;
+  height: 3em;
+  margin-bottom: 10px;
+}
+
+.btn1-banner:hover {
+  color: white;
+  background: #8626fc;
+}
+
+.btn2-banner {
+  background: white;
+  border-color: #8e43e7;
+  color: #8e43e7;
+  width: 7em;
+  height: 3em;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btn2-banner:hover {
+  background: #8e43e7;
+  color: white;
+}
+
+.banner-font {
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+}
+
+.banner-font-gray1 {
+  color: gray;
+  font-size: larger;
+}
+
+#banner-font-gray2 {
+  color: gray;
+  font-size: larger;
+}
+
+.shyam {
+  font-weight: bold;
+}
+
+.space {
+  margin: 2em;
+}
+
+.about-me {
+  width: 99%;
+  padding-bottom: 10px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-family: "jost", sans-serif;
+}
+
+.about-heading {
+  color: #273c66;
+  font-size: 35px;
+}
+
+.about-heading2 {
+  color: #273c66;
+  font-size: 25px;
+}
+
+.about-sub-heading {
+  color: gray;
+}
+
+.about-paragraph {
+  color: gray;
+}
+
+.about-my-resume {
+  background: white;
+  border-color: #8e43e7;
+  color: #8e43e7;
+  width: 7em;
+  height: 3em;
+  cursor: pointer;
+}
+
+.about-my-resume:hover {
+  background: #8e43e7;
+  color: white;
+}
+
+.posts {
+  font-family: "Jost", sans-serif;
+  padding-top: 2em;
+  width: 99%;
+  padding-bottom: 15px;
+}
+
+.posts-main-header {
+  color: #273c66;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.posts-img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.posts-margin {
+  margin-top: 10px;
+  width: 99%;
+  padding-left: 25px;
+}
+
+.posts-sub-heading {
+  margin-top: 10px;
+  color: #273c66;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.posts-background {
+  background: #f1f7fc; /* posts background color */
+}
+
+.posts-padding {
+  padding-bottom: 25px;
+}
+
+.posts-paragraph {
+  font-family: "Jost", sans-serif;
+}
+
+.posts-horizontal-line {
+  font-family: "Jost", sans-serif;
+}
+
+.posts-horizontal-after-image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  align-items: center;
+}
+
+.posts-horizontal-after-section-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.posts-horizontal-after-list-heading {
+  font-family: serif;
+  color: #273c66;
+}
+
+.posts-horizontal-after-list {
+  font-family: "Jost", sans-serif;
+}
+
+.services-heading-row {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services-font {
+  font-family: "Jost", sans-serif;
+}
+
+.services-heading {
+  color: #273c66;
+}
+
+.services-sub-heading {
+  color: gray;
+}
+
+.services-card-heading {
+  font-weight: bold;
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+.services-card-heading:hover {
+  color: #8e43e7;
+}
+
+.services-card-icon {
+  color: #8e43e7;
+}
+
+.services-card-paragraph {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.body-services .card {
+  padding: 40px 30px;
+  transition: all 0.5s ease 0s;
+  border-radius: 10px;
+  background-color: rgb(252, 246, 246);
+  position: relative;
+  border-color: rgb(252, 246, 246);
+}
+
+.body-services .card:hover {
+  background: white;
+  border-radius: 10px;
+  border-color: rgb(221, 218, 218);
+}
+
+.body-services .box-wrap {
+  border: none;
+  background: none;
+}
+
+.body-services .box-wrap:hover h4.number {
+  opacity: 0.2;
+  transition: 0.3s ease-in-out;
+}
+
+.body-services .box-wrap img {
+  max-width: 55px;
+  display: block;
+  margin: 0 auto;
+}
+
+.body-services .icon span.fa {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.body-services .icon {
+  margin-bottom: 10px;
+}
+
+.body-services .box-wrap h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: block;
+  color: var(--heading-color);
+}
+
+.body-services .box-wrap h4 a:hover {
+  color: var(--primary-color);
+}
+
+.body-services a.read {
+  font-size: 17px;
+  padding: 0;
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--heading-color);
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+  border-radius: 0;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.body-services a.read:hover {
+  color: var(--primary-color);
+}
+
+.body-services h4.number {
+  position: absolute;
+  font-size: 60px;
+  line-height: 60px;
+  right: 40px;
+  top: 30px;
+  opacity: 0.07;
+  transition: 0.3s ease-in-out;
+}
+
+.body-services .box-wrap p {
+  margin: 0;
+}
+
+.body-services p.sample a {
+  color: var(--heading-color);
+  font-size: 1.1em;
+}
+
+.body-services p.sample a:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 384px) {
+  .body-services .box-wrap {
+    padding: 35px 25px;
+  }
+}
+
+.gallery-heading {
+  font-family: serif;
+  font-weight: bold;
+  color: #273c66;
+}
+
+.gallery-paragraph {
+  font-family: "Jost", sans-serif;
+}
+
+.gallery-margin {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.gallery-img1 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+@media only screen and (max-width: 568px) {
+  .gallery-img1 {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1212px) {
+  .gallery-img1 {
+    max-width: 200px;
+  }
+}
+
+.gallery-img2 {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-img3 {
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.hirme-bottum {
+  padding-bottom: 20px;
+}
+
+.hireme-heading {
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+  margin-top: 25px;
+}
+
+.hireme-paragraph {
+  font-family: "Jost", sans-serif;
+  color: gray;
+}
+
+.hireme-2-sub-heading {
+  margin-top: 70px;
+  font-family: "Jost", sans-serif;
+  color: gray;
+}
+
+.hireme-2-heading {
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+  margin-bottom: 30px;
+}
+
+.btn1-hire {
+  background: #8e43e7;
+  color: white;
+  cursor: pointer;
+  width: 10em;
+  height: 3em;
+  float: right;
+}
+
+.btn1-hire:hover {
+  color: white;
+  background: #8626fc;
+}
+
+.btn2-hire {
+  background: white;
+  border-color: #8e43e7;
+  color: #8e43e7;
+  width: 10em;
+  height: 3em;
+  cursor: pointer;
+}
+
+.btn2-hire:hover {
+  background: #8e43e7;
+  color: white;
+}
+
+.menu-font {
+  font-family: "Jost", sans-serif;
+}
+
+.copyright {
+  font-family: "Jost", sans-serif;
+}
+
+.brand {
+  font-family: "Jost", sans-serif;
+  color: #8e43e7;
+}
+
+.radius-image {
+  border-radius: var(--border-radius);
+}
+
+.body-index5 {
+  background: var(--bg-light);
+}
+
+.body-index5 .new-block {
+  display: grid;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.body-index5 .middle-section {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.body-index5 span.video-play-icon {
+  background: #fff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  -webkit-animation: ripple 1s linear infinite;
+  animation: ripple 1s linear infinite;
+}
+
+.body-index5 span.video-play-icon span {
+  color: var(--primary-color);
+}
+
+.body-index5 span.video-play-icon:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.body-index5 span.fa.fa-play {
+  line-height: 55px;
+}
+
+.body-index5 .history-info {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.body-index5 .play-view {
+  left: 0;
+  right: 0;
+  top: calc(50% - 40px);
+}
+
+.btn-popup-vdeo {
+  background: white;
+  border-color: #8e43e7;
+  color: #8e43e7;
+  width: 6em;
+  height: 3em;
+  cursor: pointer;
+}
+
+.btn-popup-vdeo:hover {
+  background: #8e43e7;
+  color: white;
+}
+
+.laptop-frame {
+  max-width: 100%;
+  height: auto;
+}
+
+.laptop-frame-heading {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.laptop-frame-sub-heading {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.laptop-frame-paragraph {
+  color: gray;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 25px;
+}
+
+.contact-info-heading {
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+}
+
+.contact-info-about {
+  font-family: "Jost", sans-serif;
+  color: gray;
+  padding-bottom: 25px;
+}
+
+.contact-info-icons {
+  color: #8e43e7;
+}
+
+.contact-info-icons:hover {
+  color: #8e43e7;
+}
+
+.contact-info-icons-text {
+  font-weight: bold;
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.contact-info-top {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.contact-info-sub-heading {
+  padding-top: 10px;
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+  font-weight: bold;
+}
+
+.contact-info-sub-heading2 {
+  font-family: "Jost", sans-serif;
+  color: #273c66;
+  font-weight: bold;
+}
+
+.contact-info-sub-heading-after {
+  font-family: "Jost", sans-serif;
+  padding-bottom: 5px;
+  color: gray;
+}
+
+.contact-info-connect-me-link {
+  font-weight: bold;
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+}
+
+.contact-info-connect-me-link:hover {
+  font-weight: bold;
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+}
+
+.body-footer #movetop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  background: #8e43e7;
+  padding: 0;
+  line-height: 36px;
+  border-radius: 50px;
+  transition: 0.3s ease-out;
+}
+
+.body-footer #movetop:hover {
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+  transition: 0.3s ease-out;
+}
+
+.contentcreator-desingner-img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+.contentcreator-desingner-padding-bottum {
+  padding-bottom: 20px;
+}
+
+.contentcreator-desingner-headings {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.contentcreator-desingner-paragraphs {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.Hire-Me-contact-info {
+  padding-top: 7em;
+}
+
+.Hire-Me-contact-info-heading {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.Hire-Me-contact-info-sub-heading1 {
+  text-decoration: none;
+  color: #8e43e7;
+  font-family: "Jost", sans-serif;
+}
+
+.Hire-Me-contact-info-sub-heading1:hover {
+  color: #8626fc;
+}
+
+.Hire-Me-contact-info-sub-heading2 {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.Hire-Me-contact-info-form {
+  font-family: "Jost", sans-serif;
+}
+
+.Hire-Me-contact-info-form-colums {
+  border-color: white;
+  height: 3em;
+}
+
+.Hire-Me-contact-info-form-colums:hover {
+  border-color: #8e43e7;
+}
+
+.Hire-Me-contact-info-form-Message {
+  border-color: white;
+  height: 9em;
+}
+
+.Hire-Me-contact-info-form-Message:hover {
+  border-color: #8e43e7;
+}
+
+.Hire-Me-contact-info-form-button {
+  font-family: "Jost", sans-serif;
+  background: #8e43e7;
+  color: white;
+  float: right;
+  height: 3em;
+}
+
+.Hire-Me-contact-info-form-button:hover {
+  background: #8626fc;
+  color: white;
+}
+
+.Hire-Me-contact-info-form-padding {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+.horizontal-layout-sub-head {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.horizontal-layout-main-head {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+  padding-bottom: 1em;
+}
+
+.horizontal-layout-image {
+  max-width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.horizontal-layout-headings {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.horizontal-layout-content-padding{
+  padding-top: 1em;
+}
+
+.horizontal-layout-paragraphs {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-heading {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-sub-heading1 {
+  text-decoration: none;
+  color: #8e43e7;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-sub-heading2 {
+  color: gray;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-sub-heading1:hover {
+  color: #8626fc;
+}
+
+.blog-content-image {
+  width: 100%;
+  height: 240px;
+}
+
+.blog-content-padding-bottum {
+  padding-bottom: 30px;
+}
+
+.blog-content-ul-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.blog-head-padding-top {
+  padding-top: 7em;
+}
+
+.padding-blog-articles-left{
+  padding-left: 24px;
+}
+
+.blog-content-top-padding {
+  padding-top: 3em;
+}
+
+.blog-contents-headings {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.blog-contents-headings:hover {
+  color: #8626fc;
+}
+
+.blog-contents-read-more  {
+  background: #8e43e7;
+  color: white;
+  cursor: pointer;
+  width: 11em;
+  height: 3em;
+  margin-bottom: 10px;
+}
+
+.blog-contents-read-more:hover {
+  color: white;
+  background: #8626fc;
+}
+
+
+.snippet__meta {
+  grid-area: meta;
+  color: var(--clr-neutral-300);
+  font-family: "Jost", sans-serif;
+}
+
+.snippet__meta span {
+  color: var(--clr-neutral-900);
+  font-family: "Jost", sans-serif;
+}
+
+.main-article {
+  margin-bottom: 3rem;
+  padding-top: 7em;
+}
+
+.main-article-image {
+  width: 100%;
+  height: auto;
+}
+
+.article-title {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.link-class:hover{
+ background-color:#f1f1f1;
+}
+
+.oops-not-found-head-padding-top {
+  padding-top: 7em;
+}
+
+.oops-not-found-heading {
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+.oops-not-found-message{
+  color: #273c66;
+  font-family: "Jost", sans-serif;
+}
+
+.oops-not-found-home-page {
+  text-decoration: none;
+  color: #8e43e7;
+  font-family: "Jost", sans-serif;
+}
+
+.oops-not-found-home-page:hover {
+  color: #8626fc;
+}
+
+#form-submit-success{
+  display: none;
+}
+
+#form-submit-error{
+  display: none;
+}
+
+.form-submit-success-btn{
+  width: 100%;
+}
+
+.form-submit-error-btn{
+  width: 100%;
+}
